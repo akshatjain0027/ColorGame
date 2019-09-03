@@ -1,0 +1,66 @@
+body{
+    background-color: #232323;
+    margin: 0;
+}
+.square{
+    width: 30%;
+    float: left;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    border-radius: 25px;
+    transition: background-color 0.8s;
+}
+#container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+h1{
+    color: white;
+    background-color: rgb(34, 133, 167);
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+#colorDisplay{
+    font-size: 65px;
+}
+#message{
+    display: inline-block;
+    width: 15%;
+    color:rgb(34, 133, 167);
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 50px;
+}
+#stripe{
+    background-color: white;
+    text-align: center;
+    height: 30px;
+    color: black;
+    padding: none;
+    margin: 0;
+    margin-bottom: 2%;
+}
+button{
+    height: 30px;
+    background-color: white;
+    color:rgb(34, 133, 167);
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+button:hover{
+    color: white;
+    background-color: rgb(34, 133, 167);
+}
+.selected{
+    color: white;
+    background-color: rgb(34, 133, 167);
+
+}
